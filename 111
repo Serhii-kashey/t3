@@ -1,0 +1,27 @@
+n=15
+
+#1-st
+print("1-st ex. : ")
+print ( "good number" if (n%2==0 and n%4==0) else "not good")
+print("2-st ex.: ")
+
+#2-nd
+print ("good number" if (n%2!=0 and n%5==0) else "not good")
+
+#3-rd
+print("3-st ex.: ")
+if n>0:
+    print("+")
+elif n<0:
+    print("-")
+else:
+    print("0")
+
+#4-th
+print("4-st ex.: ")
+u="u"
+d="d"
+k="c"
+s="s"
+misce="2ud"
+print ("upper and coupe" if misce in u and misce in c else "down and side")
